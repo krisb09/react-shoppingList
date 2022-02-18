@@ -25,10 +25,10 @@ const ItemList = ({ todos, setTodos, setEditTodo }) => {
           />
           <div>
             <button className="edit" onClick={() => handleEdit(todo)}>
-              {/* <i className="fa fa-edit"></i> */}Edit
+              Edit
             </button>
             <button className="delete" onClick={() => handleDelete(todo)}>
-              {/* <i className="fa fa-trash"></i> */}Delete
+              Delete
             </button>
           </div>
         </li>
