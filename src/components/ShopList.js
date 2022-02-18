@@ -16,7 +16,22 @@ const ItemList = ({ todos, setTodos, setEditTodo }) => {
     <div>
       {/* map thru todos list item and display list item on the screen*/}
       {todos.map((todo) => (
-        <li className="list-item" key={todo.id}></li>
+        <li className="list-item" key={todo.id}>
+          <input
+            type="text"
+            value={todo.title}
+            className="list"
+            onChange={(e) => e.preventDefault()}
+          />
+          <div>
+            <button className="edit" onClick={() => handleEdit(todo)}>
+              {/* <i className="fa fa-edit"></i> */}Edit
+            </button>
+            <button className="delete" onClick={() => handleDelete(todo)}>
+              {/* <i className="fa fa-trash"></i> */}Delete
+            </button>
+          </div>
+        </li>
       ))}
     </div>
   );
