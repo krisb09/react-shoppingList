@@ -1,5 +1,6 @@
 //displays to do list items on screen
 import React from "react";
+import '../styles/ShopList.css'
 
 const ItemList = ({ todos, setTodos, setEditTodo }) => {
   const handleEdit = ({ id }) => {

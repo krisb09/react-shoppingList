@@ -1,0 +1,43 @@
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ffff;
+  border-radius: 1px;
+  padding: 10px;
+}
+
+.list {
+  width: 220px;
+  background-color: #ffff;
+  border: none;
+  color: #000000;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+
+.edit {
+  color: #1b1905;
+  margin-right: 10px;
+  font-size: 18px;
+  width: 70px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #fe4646;
+  cursor: pointer;
+
+}
+
+.delete {
+
+  color: #1b1907;
+  margin-right: 3px;
+  font-size: 18px;
+  width: 70px;
+  padding: 15px 5px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #fe4646;;
+  cursor: pointer;
+}
